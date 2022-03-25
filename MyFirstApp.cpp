@@ -4,9 +4,15 @@ int main ()
 {
     int a;
     cin>>a;
-    for(int i=1; i<=10; i++)
+
+    for(int k=1; k<=a; k++)
     {
-        cout<<a<<"*"<<i<<"="<<a*i<<endl;
+        cout<<"Multiplication of "<<k<<endl;
+        for(int i=1; i<=10; i++)
+        {
+            cout<<k<<"*"<<i<<"="<<k*i<<endl;
+        }
     }
+
 }
 
